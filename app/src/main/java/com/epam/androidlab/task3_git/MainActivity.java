@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Git git = new Git();
                 git.setField(etField.getText().toString());
-                tvNewField.setText(git.getField());
+                tvNewField.setText(git.getNewField());
             }
         });
     }
