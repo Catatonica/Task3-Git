@@ -9,16 +9,15 @@ package com.epam.androidlab.task3_git;
  */
 class Git {
 
-    private String mFeatureField;
+    private String mField;
     private static final String FUNNY_SMILE = ":)";
-    private static final String SAD_SMILE = " :(";
 
-    String getField() {
-        return mFeatureField + FUNNY_SMILE + SAD_SMILE;
+    String getNewField() {
+        return mField + FUNNY_SMILE;
     }
 
-    
+
     void setField(String mOriginField) {
-        this.mFeatureField = mOriginField;
+        this.mField = mOriginField;
     }
 }
