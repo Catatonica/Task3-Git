@@ -17,6 +17,7 @@ class Git {
         return mFeatureField + FUNNY_SMILE + SAD_SMILE;
     }
 
+    
     void setField(String mOriginField) {
         this.mFeatureField = mOriginField;
     }
